@@ -39,6 +39,7 @@ class rabbitmq(
   $ssl_cert                   = $rabbitmq::params::ssl_cert,
   $ssl_key                    = $rabbitmq::params::ssl_key,
   $ssl_port                   = $rabbitmq::params::ssl_port,
+  $no_ssl_management          = $rabbitmq::params::no_ssl_management,
   $ssl_interface              = $rabbitmq::params::ssl_interface,
   $ssl_management_port        = $rabbitmq::params::ssl_management_port,
   $ssl_stomp_port             = $rabbitmq::params::ssl_stomp_port,
