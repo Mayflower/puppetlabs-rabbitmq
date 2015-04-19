@@ -353,7 +353,7 @@ SSL management port.
 
 ####`no_ssl_management`
 
-Switch managment back to no ssl mode if ssl is enabled.
+Switch management back to no ssl mode if ssl is enabled.
 Has only a effect if ssl => true.
 Default is false.
 
